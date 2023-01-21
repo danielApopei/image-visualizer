@@ -1,0 +1,121 @@
+# depslib dependency file v1.0
+1670692380 source:c:\users\daniel apopei\desktop\introducere in programare (ip)\imagevisualizer\main.cpp
+	"bmp.h"
+	"pngReader.h"
+
+1673270620 source:g:\laboratoare\imagevisualizer\main.cpp
+	"pngReader.h"
+	"interface.h"
+
+1670851879 g:\laboratoare\imagevisualizer\bmp_header.h
+	<stdexcept>
+
+1670851879 g:\laboratoare\imagevisualizer\bmp_dib.h
+	<cstring>
+
+1672954438 g:\laboratoare\imagevisualizer\bmp_display.h
+	<winbgim.h>
+	<stdio.h>
+	"bmp_header.h"
+	"bmp_colorTable.h"
+	"bmp_dib.h"
+	"utilities.h"
+
+1672953654 g:\laboratoare\imagevisualizer\bmp_colortable.h
+	<cmath>
+	<cstring>
+	<iostream>
+	<stdlib.h>
+	"bmp_dib.h"
+
+1670851878 g:\laboratoare\imagevisualizer\utilities.h
+	<iostream>
+
+1670501576 c:\users\daniel apopei\desktop\introducere in programare (ip)\imagevisualizer\bmp_header.h
+	<stdexcept>
+
+1670501576 c:\users\daniel apopei\desktop\introducere in programare (ip)\imagevisualizer\bmp_dib.h
+	<cstring>
+
+1670508139 c:\users\daniel apopei\desktop\introducere in programare (ip)\imagevisualizer\bmp_colortable.h
+	<cmath>
+	<cstring>
+	<iostream>
+	<stdlib.h>
+
+1670514691 c:\users\daniel apopei\desktop\introducere in programare (ip)\imagevisualizer\bmp_display.h
+	<winbgim.h>
+	<stdio.h>
+	"bmp_header.h"
+	"bmp_colorTable.h"
+	"bmp_dib.h"
+	"utilities.h"
+
+1670501576 c:\users\daniel apopei\desktop\introducere in programare (ip)\imagevisualizer\utilities.h
+	<iostream>
+
+1670511000 c:\users\daniel apopei\desktop\introducere in programare (ip)\imagevisualizer\bmp.h
+	<stdio.h>
+	<iostream>
+	"bmp_header.h"
+	"bmp_dib.h"
+	"bmp_colorTable.h"
+	"bmp_display.h"
+	<stdexcept>
+
+1670840718 c:\users\daniel apopei\desktop\introducere in programare (ip)\imagevisualizer\pngreader.h
+	<cstring>
+	<stdexcept>
+
+1670791091 c:\users\daniel apopei\desktop\introducere in programare (ip)\imagevisualizer\zlib.h
+	"zconf.h"
+
+1673247708 g:\laboratoare\imagevisualizer\pngreader.h
+	<cstring>
+	<stdexcept>
+	<iostream>
+	"tinf.h"
+	<graphics.h>
+	<winbgim.h>
+	<stdio.h>
+
+1672954647 g:\laboratoare\imagevisualizer\interface.h
+	<winbgim.h>
+	"bmp_dib.h"
+	"bmp.h"
+	<stdio.h>
+	<windows.h>
+
+1672953704 g:\laboratoare\imagevisualizer\bmp.h
+	<stdio.h>
+	<iostream>
+	"bmp_header.h"
+	"bmp_dib.h"
+	"bmp_colorTable.h"
+	"bmp_display.h"
+	<stdexcept>
+
+1671701794 g:\laboratoare\imagevisualizer\tinf.h
+
+1671701795 source:g:\laboratoare\imagevisualizer\adler32.c
+	"tinf.h"
+
+1671701795 source:g:\laboratoare\imagevisualizer\crc32.c
+	"tinf.h"
+
+1671701794 source:g:\laboratoare\imagevisualizer\tinfgzip.c
+	"tinf.h"
+
+1671701794 source:g:\laboratoare\imagevisualizer\tinflate.c
+	"tinf.h"
+	<assert.h>
+	<limits.h>
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+
+1671701794 source:g:\laboratoare\imagevisualizer\tinfzlib.c
+	"tinf.h"
+

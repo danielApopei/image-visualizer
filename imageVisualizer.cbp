@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="imageVisualizer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/imageVisualizer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/imageVisualizer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="OS22 (16).bmp" />
+		<Unit filename="adler32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bmp.h" />
+		<Unit filename="bmp_colorTable.h" />
+		<Unit filename="bmp_dib.h" />
+		<Unit filename="bmp_display.h" />
+		<Unit filename="bmp_header.h" />
+		<Unit filename="crc32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="galaxy.png" />
+		<Unit filename="good_trns_with-palette.png" />
+		<Unit filename="imageVisualizer.cbp" />
+		<Unit filename="imageVisualizer.depend" />
+		<Unit filename="imageVisualizer.layout" />
+		<Unit filename="interface.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="pngReader.h" />
+		<Unit filename="test.png" />
+		<Unit filename="testBlue.png" />
+		<Unit filename="testCustom.png" />
+		<Unit filename="testGreen.png" />
+		<Unit filename="testPallette.png" />
+		<Unit filename="testRed.png" />
+		<Unit filename="test_16bit_1.bmp" />
+		<Unit filename="test_24bit_1.bmp" />
+		<Unit filename="test_32bit_1.bmp" />
+		<Unit filename="test_8bit_1.bmp" />
+		<Unit filename="test_8bit_2.bmp" />
+		<Unit filename="tinf.h" />
+		<Unit filename="tinfgzip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tinflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tinfzlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utilities" />
+		<Unit filename="utilities.h" />
+		<Unit filename="zlib.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
